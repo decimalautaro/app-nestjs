@@ -1,7 +1,7 @@
 import { Column, Entity, OneToMany } from "typeorm";
-import { BaseEntity } from "src/config/base.entity";
-import { ROLES } from "src/constants/roles";
-import { IUser } from "src/interfaces/user.interface";
+import { BaseEntity } from "../../config/base.entity";
+import { ROLES } from "../../constants/roles";
+import { IUser } from "../../interfaces/user.interface";
 import { UserProjectsEntity } from "./usersProjects.entity";
 
 @Entity({name: 'users'})
